@@ -55,12 +55,14 @@ html{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transition: all ease 0.3s;
+    
 }
 
 .box:hover{
     animation-play-state: running;
     box-shadow: 0 0  50px rgba(236, 7, 171, 0.925);
     border: 5px solid rgba(0, 0, 0, 0);
+    color: rgba(236, 7, 171, 0.925);
 }
 
 .box img{
